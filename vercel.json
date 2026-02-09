@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/avatar/:p1/:p2",
+      "destination": "https://gravatar.com/avatar/:p1?r=g&s=:p2"
+    }
+  ]
+}
