@@ -1,4 +1,4 @@
-#使用 Vercel 加速 Gravatar.
+# 使用 Vercel 加速 Gravatar.
 > 支持自定义 email hash & size
 
 
