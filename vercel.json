@@ -3,6 +3,18 @@
     {
       "source": "/avatar/:p1/:p2",
       "destination": "https://gravatar.com/avatar/:p1?r=g&s=:p2"
+    },
+    {
+      "source": "/avatar/:p1",
+      "destination": "https://gravatar.com/avatar/:p1?r=g&s=128"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/avatar/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=2592000, immutable" }
+      ]
     }
   ]
 }
